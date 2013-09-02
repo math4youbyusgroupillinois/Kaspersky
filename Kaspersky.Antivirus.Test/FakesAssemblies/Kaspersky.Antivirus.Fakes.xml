@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kaspersky.Antivirus.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Kaspersky.Antivirus.Internal.Fakes.ShimNativeMethods">
+            <summary>Shim type of Kaspersky.Antivirus.Internal.NativeMethods</summary>
+        </member>
+        <member name="M:Kaspersky.Antivirus.Internal.Fakes.ShimNativeMethods.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Kaspersky.Antivirus.Internal.Fakes.ShimNativeMethods.#ctor(Kaspersky.Antivirus.Internal.NativeMethods)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Kaspersky.Antivirus.Internal.Fakes.ShimNativeMethods.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Kaspersky.Antivirus.Internal.Fakes.ShimNativeMethods.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Kaspersky.Antivirus.Internal.Fakes.ShimNativeMethods.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Kaspersky.Antivirus.Internal.Fakes.ShimNativeMethods.Constructor">
+            <summary>Sets the shim of NativeMethods.NativeMethods()</summary>
+        </member>
+        <member name="P:Kaspersky.Antivirus.Internal.Fakes.ShimNativeMethods.kaveInitializeEx">
+            <summary>Sets the shim of NativeMethods.kaveInitializeEx()</summary>
+        </member>
+        <member name="P:Kaspersky.Antivirus.Internal.Fakes.ShimNativeMethods.kaveUninitialize">
+            <summary>Sets the shim of NativeMethods.kaveUninitialize()</summary>
+        </member>
+        <member name="T:Kaspersky.Antivirus.Internal.Fakes.ShimNativeMethods.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+    </members>
+</doc>
